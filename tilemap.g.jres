@@ -1,0 +1,40 @@
+{
+    "transparency16": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true
+    },
+    "tile1": {
+        "data": "hwQQABAAAAAdERGxHRERsdHd3b3R3d290d3dvdHd3b3R3d290d3dvdHd3b3R3d290d3dvdHd3b3R3d3d0d3d3bu7u+27u7vtHRERsR0REdHR3d290d3dvdHd3b3R3d290d3dvdHd3b3R3d290d3dvdHd3b3R3d290d3d3dHd3b27u7vtu7u77Q==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile"
+    },
+    "level1": {
+        "id": "level1",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxMDAwMTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwNTA0MDQwNDA0MDQwNDA0MDQwNDAxMDAwMDAwMDAwMDA2MGEwYTBhMGEwYTBhMGEwYTBkMDIwMDAwMDAwMDAwMDYwYTBhMGEwYTBhMGEwYTBhMGEwMjAwMDAwMDAwMDAwNjBhMGEwYTBhMGEwYTBhMGEwYTAyMDAwMDAwMDAwMDA2MGEwYTBhMGEwYTBhMGEwYTBhMDIwMDAwMDAwMDAwMDcwODA4MDgwODA4MDEwYzBjMDUwMzAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMjBhMGEwOTAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAyMGEwYjA5MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDIwODA4MDMwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAyMjIyMjIyMjIyMDIwMDAwMDIwMDAwMDAwMDAyMDAwMDAyMDAwMDAwMDAwMjAwMDAwMjAwMDAwMDAwMDIwMDAwMDIwMDAwMDAwMDAyMDAwMDIyMjIyMjIyMjIwMjAwMDAwMDAwMDAwMjIwMDAwMDAwMDAwMDAwMDIyMDAwMDAwMDAwMDAwMDIyMjIwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMA==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.dungeon.greenOuterNorthEast",
+            "sprites.dungeon.greenOuterEast0",
+            "sprites.dungeon.greenOuterSouthWest",
+            "sprites.dungeon.greenOuterNorth1",
+            "sprites.dungeon.greenOuterNorthWest",
+            "sprites.dungeon.greenOuterWest1",
+            "sprites.dungeon.greenOuterSouthEast",
+            "sprites.dungeon.greenOuterSouth0",
+            "sprites.dungeon.greenOuterEast1",
+            "myTiles.tile1",
+            "sprites.dungeon.chestOpen",
+            "sprites.dungeon.hazardSpike",
+            "sprites.dungeon.collectibleBlueCrystal"
+        ],
+        "displayName": "level1"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myTiles"
+    }
+}
