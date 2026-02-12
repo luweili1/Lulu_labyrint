@@ -7,15 +7,17 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorLockedNorth, function
 })
 function Level_change (Level_number: number) {
     if (Level_number == 1) {
-        mySprite.setPosition(55, 120)
+        mySprite.setPosition(170, 167)
         tiles.setCurrentTilemap(tilemap`level8`)
+        scene.setBackgroundColor(13)
     } else if (Level_number == 2) {
         mySprite.setPosition(30, 82)
         tiles.setCurrentTilemap(tilemap`level1`)
+        scene.setBackgroundColor(4)
     } else if (Level_number == 3) {
         tiles.setCurrentTilemap(tilemap`level6`)
+        scene.setBackgroundColor(7)
     }
-    scene.setBackgroundColor(7)
 }
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleBlueCrystal, function (sprite, location) {
     tiles.setTileAt(location, sprites.castle.tilePath5)
