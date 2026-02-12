@@ -1,15 +1,17 @@
 namespace SpriteKind {
     export const Button = SpriteKind.create()
 }
-scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorOpenSouth, function (sprite, location) {
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorLockedNorth, function (sprite, location) {
     Current_level += 1
     Level_change(Current_level)
 })
 function Level_change (Level_number: number) {
     if (Level_number == 1) {
-        tiles.setCurrentTilemap(tilemap`level1`)
+        mySprite.setPosition(55, 120)
+        tiles.setCurrentTilemap(tilemap`level8`)
     } else if (Level_number == 2) {
-        tiles.setCurrentTilemap(tilemap`level5`)
+        mySprite.setPosition(30, 82)
+        tiles.setCurrentTilemap(tilemap`level1`)
     } else if (Level_number == 3) {
         tiles.setCurrentTilemap(tilemap`level6`)
     }
@@ -23,7 +25,8 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleBlueCrystal, f
     }
 })
 let Current_level = 0
-let mySprite = sprites.create(img`
+let mySprite: Sprite = null
+mySprite = sprites.create(img`
     . . . . . . 5 . 5 . . . . . . . 
     . . . . . f 5 5 5 f f . . . . . 
     . . . . f 1 5 2 5 1 6 f . . . . 
